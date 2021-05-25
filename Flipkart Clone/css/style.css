@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #2874f0;
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    align-items: center;
+}
+
+.logo img{
+    padding: 20px 15px 0px 20px;
+    width: 75px;
+}
+
+nav ul{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 15px;
+}
+
+nav ul li a{
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+nav ul li a:hover{
+    /* color: black; */
+    font-weight: bolder;
+    transition: ease-in 1;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    height: 55%;
+    width: 35vw;
+    border-radius: 2px 0 0 2px;
+    border: 0;
+    padding: 0 16px;
+    outline: 0 none;
+    margin: 0 10px 0 32vw;  
+}
+
+.btn{
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+    color: white;
+    background-color: #2874f0;
+}
+.btn:hover{
+    font-weight: bolder;
+    transition: ease-in-out;
+}
+
+.container{
+    min-height: calc(100vh - 56px - 8vh);
+}
+
+
+
+.slider img{
+    width: 80%;
+    margin: 5px 10vw;
+    
+}
+
+.card{
+    max-width: 90vw;
+    margin: 5vw auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cards{
+    display: flex; 
+    overflow: hidden;
+    padding: 2vw;
+    /* flex-wrap: wrap; */
+}
+
+
+
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 1vw;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 8vh;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.text-center{
+    text-align: center;
+}
